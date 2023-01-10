@@ -1,4 +1,4 @@
-import { BalanceMap, getEtherBalances, getTokensBalance } from '@mycrypto/eth-scan'
+import { BalanceMap, getEtherBalances, getTokensBalance } from '@conduitxyz/eth-scan'
 import { useEffect, useMemo } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { useActiveWeb3React } from '../../hooks'

@@ -1155,6 +1155,15 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
+"@conduitxyz/eth-scan@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@conduitxyz/eth-scan/-/eth-scan-2.1.0.tgz#2567b17077bae8859e6f13fd4d0eaeb2599d42e2"
+  integrity sha512-bzM2kvXYv/K8gfoEWuI5LcMb7XFQwkdMXEMzDX+ZnE2CQEYnLddrjXO1QlIfOsLbbIq2Cpbq/YnDE/N3ScOU2Q==
+  dependencies:
+    "@ethersproject/abi" "^5.0.0-beta.146"
+    "@ethersproject/bignumber" "^5.0.0-beta.135"
+    isomorphic-unfetch "^3.0.0"
+
 "@conduitxyz/uniswap-v2-sdk@^2.0.5":
   version "2.0.5"
   resolved "https://registry.yarnpkg.com/@conduitxyz/uniswap-v2-sdk/-/uniswap-v2-sdk-2.0.5.tgz#0080b7b2131fd2ba62b7b07dfb01aa0a53ed6c23"
@@ -2325,15 +2334,6 @@
   dependencies:
     call-me-maybe "^1.0.1"
     glob-to-regexp "^0.3.0"
-
-"@mycrypto/eth-scan@^2.1.0":
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/@mycrypto/eth-scan/-/eth-scan-2.1.0.tgz#9248b00000bff0b4ac9acda093d98eae0c84b93c"
-  integrity sha512-ncbWZDz6lL/8iFklGYt5MG2iTtTzJ6V6P10ht6PoOMHFG/2HiAm9AbKzwP0twYRh/oa/p/nSg3SrZer0Zuk7ZA==
-  dependencies:
-    "@ethersproject/abi" "^5.0.0-beta.146"
-    "@ethersproject/bignumber" "^5.0.0-beta.135"
-    isomorphic-unfetch "^3.0.0"
 
 "@nodelib/fs.stat@^1.1.2":
   version "1.1.3"
