@@ -1,4 +1,4 @@
-import { Token, ChainId } from '@uniswap/sdk'
+import { Token, ChainId } from '@conduitxyz/uniswap-v2-sdk'
 
 export default [
   new Token(888, '0xa513E6E4b8f2a923D98304ec87F64353C4D5C853', 18, 'WETH', 'Wrapped Ether'),

@@ -1,4 +1,4 @@
-import { TokenAmount } from '@uniswap/sdk'
+import { TokenAmount } from '@conduitxyz/uniswap-v2-sdk'
 import React from 'react'
 import { Text } from 'rebass'
 import { useActiveWeb3React } from '../../hooks'

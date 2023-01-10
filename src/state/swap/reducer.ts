@@ -1,6 +1,6 @@
 import { parse } from 'qs'
 import { createReducer } from '@reduxjs/toolkit'
-import { ChainId, WETH } from '@uniswap/sdk'
+import { ChainId, WETH } from '@conduitxyz/uniswap-v2-sdk'
 import { isAddress } from '../../utils'
 import { Field, selectToken, setDefaultsFromURL, switchTokens, typeInput } from './actions'
 

@@ -1,6 +1,6 @@
 import { BigNumber } from '@ethersproject/bignumber'
 import { Contract } from '@ethersproject/contracts'
-import { ChainId, Token, Trade, TradeType, WETH } from '@uniswap/sdk'
+import { ChainId, Token, Trade, TradeType, WETH } from '@conduitxyz/uniswap-v2-sdk'
 import { useMemo } from 'react'
 import { DEFAULT_DEADLINE_FROM_NOW, INITIAL_ALLOWED_SLIPPAGE, ROUTER_ADDRESS } from '../constants'
 import { useTokenAllowance } from '../data/Allowances'

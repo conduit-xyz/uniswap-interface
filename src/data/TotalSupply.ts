@@ -1,5 +1,5 @@
 import { Contract } from '@ethersproject/contracts'
-import { Token, TokenAmount } from '@uniswap/sdk'
+import { Token, TokenAmount } from '@conduitxyz/uniswap-v2-sdk'
 import useSWR from 'swr'
 
 import { SWRKeys, useKeepSWRDataLiveAsBlocksArrive } from '.'

@@ -1,4 +1,4 @@
-import { Token, TokenAmount } from '@uniswap/sdk'
+import { Token, TokenAmount } from '@conduitxyz/uniswap-v2-sdk'
 import React, { useContext } from 'react'
 import { ArrowDown } from 'react-feather'
 import { Text } from 'rebass'

@@ -1,4 +1,4 @@
-import { Token } from '@uniswap/sdk'
+import { Token } from '@conduitxyz/uniswap-v2-sdk'
 import { transparentize } from 'polished'
 import React, { useMemo } from 'react'
 import styled from 'styled-components'

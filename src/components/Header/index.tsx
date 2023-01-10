@@ -10,7 +10,7 @@ import Web3Status from '../Web3Status'
 
 import { Link } from '../../theme'
 import { Text } from 'rebass'
-import { WETH, ChainId } from '@uniswap/sdk'
+import { WETH, ChainId } from '@conduitxyz/uniswap-v2-sdk'
 import { isMobile } from 'react-device-detect'
 import { YellowCard } from '../Card'
 import { useActiveWeb3React } from '../../hooks'

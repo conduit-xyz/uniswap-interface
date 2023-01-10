@@ -1,4 +1,4 @@
-import { ChainId, Token, WETH } from '@uniswap/sdk'
+import { ChainId, Token, WETH } from '@conduitxyz/uniswap-v2-sdk'
 import { useEffect, useMemo } from 'react'
 import { ALL_TOKENS } from '../constants/tokens'
 import { useAddUserToken, useFetchTokenByAddress, useUserAddedTokens } from '../state/user/hooks'

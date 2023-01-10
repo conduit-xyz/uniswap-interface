@@ -1,4 +1,4 @@
-import { ChainId, JSBI, Pair, Token, TokenAmount, WETH } from '@uniswap/sdk'
+import { ChainId, JSBI, Pair, Token, TokenAmount, WETH } from '@conduitxyz/uniswap-v2-sdk'
 import { useActiveWeb3React } from '../../hooks'
 import { useCallback, useMemo } from 'react'
 import { shallowEqual, useDispatch, useSelector } from 'react-redux'

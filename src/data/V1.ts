@@ -1,5 +1,5 @@
 import { Contract } from '@ethersproject/contracts'
-import { Token, TokenAmount, Pair, Trade, ChainId, WETH, Route, TradeType, Percent } from '@uniswap/sdk'
+import { Token, TokenAmount, Pair, Trade, ChainId, WETH, Route, TradeType, Percent } from '@conduitxyz/uniswap-v2-sdk'
 import useSWR from 'swr'
 import { useActiveWeb3React } from '../hooks'
 import { useV1FactoryContract } from '../hooks'

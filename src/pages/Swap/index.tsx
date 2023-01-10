@@ -1,4 +1,4 @@
-import { JSBI, TokenAmount, WETH } from '@uniswap/sdk'
+import { JSBI, TokenAmount, WETH } from '@conduitxyz/uniswap-v2-sdk'
 import React, { useContext, useState } from 'react'
 import { ArrowDown } from 'react-feather'
 import ReactGA from 'react-ga'

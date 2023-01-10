@@ -1,5 +1,5 @@
 import { parseUnits } from '@ethersproject/units'
-import { JSBI, Token, TokenAmount, Trade } from '@uniswap/sdk'
+import { JSBI, Token, TokenAmount, Trade } from '@conduitxyz/uniswap-v2-sdk'
 import { useCallback, useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { useActiveWeb3React } from '../../hooks'

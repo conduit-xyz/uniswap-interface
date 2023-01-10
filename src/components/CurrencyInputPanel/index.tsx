@@ -1,4 +1,4 @@
-import { Pair, Token } from '@uniswap/sdk'
+import { Pair, Token } from '@conduitxyz/uniswap-v2-sdk'
 import React, { useState, useContext } from 'react'
 import styled, { ThemeContext } from 'styled-components'
 import '@reach/tooltip/styles.css'

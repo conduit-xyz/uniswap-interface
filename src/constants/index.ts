@@ -1,4 +1,4 @@
-import { ChainId, Token, WETH, JSBI, Percent } from '@uniswap/sdk'
+import { ChainId, Token, WETH, JSBI, Percent } from '@conduitxyz/uniswap-v2-sdk'
 import { fortmatic, injected, portis, walletconnect, walletlink } from '../connectors'
 
 export const V1_FACTORY_ADDRESS = '0xc0a47dFe034B400B47bDaD5FecDa2621de6c4d95'

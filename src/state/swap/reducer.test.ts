@@ -1,4 +1,4 @@
-import { ChainId, WETH } from '@uniswap/sdk'
+import { ChainId, WETH } from '@conduitxyz/uniswap-v2-sdk'
 import { createStore, Store } from 'redux'
 import { Field, setDefaultsFromURL } from './actions'
 import reducer, { SwapState } from './reducer'

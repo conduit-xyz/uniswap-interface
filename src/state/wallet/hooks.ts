@@ -1,5 +1,5 @@
 import { getAddress } from '@ethersproject/address'
-import { ChainId, JSBI, Token, TokenAmount, WETH } from '@uniswap/sdk'
+import { ChainId, JSBI, Token, TokenAmount, WETH } from '@conduitxyz/uniswap-v2-sdk'
 import { useEffect, useMemo } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { useAllTokens } from '../../hooks/Tokens'
