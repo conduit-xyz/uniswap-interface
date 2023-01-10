@@ -6,7 +6,8 @@ const chainIdToNetwork = {
   1: 'mainnet',
   3: 'ropsten',
   4: 'rinkeby',
-  42: 'kovan'
+  42: 'kovan',
+  888: 'conduit'
 }
 
 export class FortmaticConnector extends FortmaticConnectorCore {
@@ -14,6 +15,7 @@ export class FortmaticConnector extends FortmaticConnectorCore {
     if (!this.fortmatic) {
       const { default: Fortmatic } = await import('fortmatic')
       const { apiKey, chainId } = this as any
+      console.log(chainId)
       this.fortmatic = new Fortmatic(apiKey, chainId === 1 || chainId === 4 ? undefined : chainIdToNetwork[chainId])
     }
 

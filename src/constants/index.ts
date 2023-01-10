@@ -3,7 +3,7 @@ import { fortmatic, injected, portis, walletconnect, walletlink } from '../conne
 
 export const V1_FACTORY_ADDRESS = '0xc0a47dFe034B400B47bDaD5FecDa2621de6c4d95'
 
-export const ROUTER_ADDRESS = '0xf164fC0Ec4E93095b804a4795bBe1e041497b92a'
+export const ROUTER_ADDRESS = '0x70e0bA845a1A0F2DA3359C97E0285013525FFC49'
 
 // used for display in the default list when adding liquidity
 export const COMMON_BASES = {
@@ -18,7 +18,8 @@ export const COMMON_BASES = {
     new Token(ChainId.RINKEBY, '0xc7AD46e0b8a400Bb3C915120d284AafbA8fc4735', 18, 'DAI', 'Dai Stablecoin')
   ],
   [ChainId.GÖRLI]: [WETH[ChainId.GÖRLI]],
-  [ChainId.KOVAN]: [WETH[ChainId.KOVAN]]
+  [ChainId.KOVAN]: [WETH[ChainId.KOVAN]],
+  [888]: [new Token(888, '0xa513E6E4b8f2a923D98304ec87F64353C4D5C853', 18, 'WETH', 'Wrapped Ether')]
 }
 
 const MAINNET_WALLETS = {
